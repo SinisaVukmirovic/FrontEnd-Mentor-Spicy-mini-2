@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 @import './blocks.css';
+@import './desktop.css';
 
 :root {
     /* Colors */
@@ -7,6 +8,8 @@
     --Light-gray: hsl(212, 45%, 89%);
     --Grayish-blue: hsl(220, 15%, 55%);
     --Dark-blue: hsl(218, 44%, 22%);
+
+    --texture-clr: rgb(77, 53, 16);
 }
 
 *, *::before, *::after {
@@ -23,6 +26,11 @@ html {
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
 }
+    /* @media (min-width: 1440px) {
+        html {
+            font-size: 17px;
+        }
+    } */
 
 body {
     min-height: 100vh;

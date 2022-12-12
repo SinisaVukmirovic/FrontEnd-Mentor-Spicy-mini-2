@@ -1,0 +1,57 @@
+@media (min-width: 1440px) {
+    .mob {
+        display: none;
+    }
+    .desk {
+        display: block;
+    }
+
+    main {
+        background-image: url('../images/texture-1.jpg');
+        background-size: cover;
+        width: 25rem;
+        margin: 5rem auto 0;
+        padding: 3.25rem;
+        background-color: var(--White);
+        border-radius: .5rem;
+        box-shadow: 0 0 20px 10px #444;
+    }
+        .outer-frame {
+            border-radius: .5rem;
+            padding: 2.25rem;
+            /* outline: 1px solid red; */
+            box-shadow: 0 0 20px 10px #333;
+        }
+        .frame {
+            border-radius: .25rem;
+            /* outline: 1px solid red; */
+            box-shadow: inset 0 0 14px 8px #222;
+            padding: 1rem;
+        }
+        section {
+            padding: 1.5rem 0;
+        }
+
+        section h2.desk {
+            padding-top: 1.5rem;
+            font-size: 2.25rem;
+            color: var(--texture-clr);
+            /* text-shadow: 1px 1px 10px #111; */
+
+        }
+        section p.desk {
+            font-size: 1.75rem;
+            color: #000;
+            /* color: var(--texture-clr); */
+            /* text-shadow: 0 0 4px var(--texture-clr); */
+        }
+
+    footer {
+        font-size: 14px;
+        padding: 1rem;
+        /* background-color: var(--texture-clr); */
+    }
+        footer a {
+            color: hsl(228, 45%, 44%);
+        }
+}

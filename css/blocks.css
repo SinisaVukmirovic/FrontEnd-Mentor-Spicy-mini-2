@@ -3,6 +3,10 @@ body {
     padding: 2rem;
 }
 
+.desk {
+    display: none;
+}
+
 main {
     margin-top: 3rem;
     padding: 1rem;

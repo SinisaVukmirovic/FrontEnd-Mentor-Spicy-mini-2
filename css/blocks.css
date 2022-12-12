@@ -1,7 +1,37 @@
+body {
+    background-color: var(--Light-gray);
+    padding: 2rem;
+}
 
+main {
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--White);
+    border-radius: 1rem;
+}
+    picture {
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+
+    section {
+        padding: 1.5rem 1rem;
+    }
+        section h2 {
+            font-weight: 700;
+            font-size: 1.5rem;
+            padding-bottom: 1rem;
+        }
+        section p {
+            font-size: 1.05rem;
+            color: var(--Dark-blue);
+        }
 
 footer {
-    font-size: 11px; text-align: center;
+    margin-top: auto;
+    font-size: 11px; 
+    text-align: center;
 }
     footer a {
         color: hsl(228, 45%, 44%);

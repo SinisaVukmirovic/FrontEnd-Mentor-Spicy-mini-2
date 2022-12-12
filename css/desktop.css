@@ -1,4 +1,8 @@
 @media (min-width: 1440px) {
+    body {
+        background-image: linear-gradient(160deg, skyblue, sandybrown);
+        background-size: cover;
+    }
     .mob {
         display: none;
     }
@@ -14,7 +18,7 @@
         padding: 3.25rem;
         background-color: var(--White);
         border-radius: .5rem;
-        box-shadow: 0 0 20px 10px #444;
+        box-shadow: 0 0 10px 5px #444;
     }
         .outer-frame {
             border-radius: .5rem;
@@ -47,7 +51,7 @@
         }
 
     footer {
-        font-size: 14px;
+        font-size: 16px;
         padding: 1rem;
         /* background-color: var(--texture-clr); */
     }

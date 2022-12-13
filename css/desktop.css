@@ -27,19 +27,19 @@
             box-shadow: 0 0 20px 10px #222;
         }
         .frame {
-            border-radius: .25rem;
+            border-radius: .3rem;
             /* outline: 1px solid red; */
             padding: 1.25rem;
-            box-shadow: inset 1px 1px 16px 7px #222,
-                        inset -1px -1px 16px 7px #222;
+            box-shadow: inset 1px 1px 15px 6px #222,
+                        inset -1px -1px 15px 6px #222;
         }
         section {
             padding: 1.5rem 0;
         }
 
         section h2.desk {
-            padding-top: 1.5rem;
-            font-size: 2.25rem;
+            padding-top: 1.25rem;
+            font-size: 2.5rem;
             color: var(--texture-clr);
             /* text-shadow: 1px 1px 10px #111; */
 

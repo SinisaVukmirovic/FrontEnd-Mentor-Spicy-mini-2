@@ -59,4 +59,23 @@
         footer a {
             color: hsl(228, 45%, 44%);
         }
+
+    .frame picture {
+        animation: bright 5s infinite ease-in-out;
+    }
+}
+
+@keyframes bright {
+    73% {
+        filter: brightness(1.25);
+    }
+    80% {
+        filter: brightness(.25);
+    }
+    84% {
+        filter: brightness(1.25);
+    }
+    91% {
+        filter: brightness(.25);
+    }
 }
